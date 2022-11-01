@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.button {
+    &__container {
+        background-color: $button-color;
+        padding: $padding-1;
+        border-radius: $border-radius-1;
+        height: 20px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

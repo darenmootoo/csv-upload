@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.csv-upload {
+    &__container {
+        border-style: dashed;
+        background-color: $grey-1;
+        border-radius: $border-radius-1;
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
